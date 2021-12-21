@@ -1,25 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F4D2650D-9FA7-4127-8168-8103C2E88E3F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/EmployeesController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Program.cs" Line="11" Column="10" />
-      <File FileName="Controllers/ListController.cs" Line="1" Column="1" />
-      <File FileName="Controllers/EmployeesController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ListController.cs" />
+      <File FileName="Controllers/EmployeesController.cs" />
+      <File FileName=".gitignore" Line="1" Column="24" />
+      <File FileName="Startup.cs" Line="17" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="InterviewTest" expanded="True">
-            <Node name="InterviewTest" expanded="True">
-              <Node name="ClientApp" expanded="True">
-                <Node name="public" expanded="True" />
-                <Node name="src" expanded="True">
-                  <Node name="index.js" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Controllers" expanded="True" />
-              <Node name="Model" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
+            <Node name="InterviewTest" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
