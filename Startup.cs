@@ -1,3 +1,5 @@
+using InterviewTest.Core.Interfaces;
+using InterviewTest.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
@@ -5,6 +7,7 @@ using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+
 
 namespace InterviewTest
 {
@@ -22,6 +25,8 @@ namespace InterviewTest
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddTransient<IEmployeeRepository, EmployeeRepository>();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -49,6 +54,9 @@ namespace InterviewTest
                     name: "default",
                     pattern: "{controller}/{action=Index}/{id?}");
             });
+
+            if (env.IsDevelopment())
+                app.UseCors("developOrigins");
 
             app.UseSpa(spa =>
             {

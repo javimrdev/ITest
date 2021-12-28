@@ -17,10 +17,35 @@
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
     <Content Remove="$(SpaRoot)**" />
-    <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="ClientApp\src\pods\" />
+    <None Remove="ClientApp\src\scenes\" />
+    <None Remove="ClientApp\src\pods\employee-list\" />
+    <None Remove="ClientApp\src\pods\employee-list\api\" />
+    <None Remove="Core\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\Repositories\" />
+    <None Remove="Core\Entities\" />
+    <None Remove="Core\Interfaces\" />
+    <None Remove="ClientApp\config\" />
+    <None Remove="ClientApp\src\pods\employee-list\components\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientApp\src\pods\" />
+    <Folder Include="ClientApp\src\scenes\" />
+    <Folder Include="ClientApp\src\pods\employee-list\" />
+    <Folder Include="ClientApp\src\pods\employee-list\api\" />
+    <Folder Include="Core\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Repositories\" />
+    <Folder Include="Core\Entities\" />
+    <Folder Include="Core\Interfaces\" />
+    <Folder Include="ClientApp\config\" />
+    <Folder Include="ClientApp\src\pods\employee-list\components\" />
+  </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">

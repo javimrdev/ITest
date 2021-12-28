@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R2/Bc5phm/YAOvFvqbSUfCk7oQlJ04G8sTvgU4uuAjwmI96RAobPLhASTYe955uO+ID07R8zsFZgSXO0If7daA==",
+  "dgSpecHash": "zaKhOwB96iWJ42JbPvdGpJ5gY1MFC3yQwU3Mrt5y1Yyeto0i50o3KyB5geCBpBXlB7wwkKStDRF5AlpbArkVRw==",
   "success": true,
   "projectFilePath": "/Users/javiermolina/Documents/recruitment-test-main/InterviewTest.csproj",
   "expectedPackageFiles": [
@@ -44,7 +44,10 @@
     "/Users/javiermolina/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/Users/javiermolina/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "/Users/javiermolina/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/javiermolina/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
+    "/Users/javiermolina/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/Users/javiermolina/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/javiermolina/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/javiermolina/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.22/microsoft.netcore.app.host.osx-x64.3.1.22.nupkg.sha512"
   ],
   "logs": []
 }

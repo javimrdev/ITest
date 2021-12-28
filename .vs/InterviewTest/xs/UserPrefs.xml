@@ -1,28 +1,57 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F4D2650D-9FA7-4127-8168-8103C2E88E3F}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/EmployeesController.cs">
     <Files>
-      <File FileName="Program.cs" Line="11" Column="10" />
-      <File FileName="Controllers/ListController.cs" />
-      <File FileName="Controllers/EmployeesController.cs" />
-      <File FileName=".gitignore" Line="1" Column="24" />
-      <File FileName="Startup.cs" Line="17" Column="10" />
+      <File FileName="Controllers/EmployeesController.cs" Line="87" Column="1" />
+      <File FileName="ClientApp/src/scenes/employee-list.scene.tsx" />
+      <File FileName="ClientApp/src/pods/employee-list/employee-list.component.tsx" Line="1" Column="1" />
+      <File FileName="ClientApp/src/pods/employee-list/employee-list.container.tsx" Line="66" Column="1" />
+      <File FileName="Infrastructure/Repositories/EmployeeRepository.cs" Line="101" Column="1" />
+      <File FileName="ClientApp/src/pods/employee-form/api/api.model.ts" Line="1" Column="1" />
+      <File FileName="ClientApp/src/pods/employee-form/api/api.ts" Line="1" Column="1" />
+      <File FileName="ClientApp/src/pods/employee-form/employee-form.container.tsx" Line="1" Column="1" />
+      <File FileName="ClientApp/src/pods/employee-form/employee-form.component.tsx" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
           <Node name="InterviewTest" expanded="True">
-            <Node name="InterviewTest" expanded="True" selected="True" />
+            <Node name="InterviewTest" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="pods" expanded="True">
+                    <Node name="employee-form" expanded="True">
+                      <Node name="api" expanded="True">
+                        <Node name="api.ts" expanded="True" />
+                      </Node>
+                    </Node>
+                    <Node name="employee-list" expanded="True" />
+                  </Node>
+                  <Node name="scenes" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="EmployeesController.cs" selected="True" />
+              </Node>
+              <Node name="Core" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.InterviewTest PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.InterviewTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/javiermolina/Documents/recruitment-test-main/Controllers/EmployeesController.cs" relfile="Controllers/EmployeesController.cs" line="87" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
